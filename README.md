@@ -54,3 +54,20 @@ python train.py --conf examples/MABNet-SPICE.yml --dataset-root ../dataset/spice
 ```
 
 The `load-model` parameter specifies the path to the trained model checkpoint file.
+
+## Citation and Contact
+
+If you find MABNet useful for your research and applications, please cite:
+
+```
+@inproceedings{
+    rao2025quadruple,
+    title={Quadruple Attention in Many-body Systems for Accurate Molecular Property Predictions},
+    author={Jiahua Rao and Dahao Xu and Wentao Wei and Yicong Chen and Mingjun Yang and Yuedong Yang},
+    booktitle={Forty-second International Conference on Machine Learning},
+    year={2025},
+    url={https://openreview.net/forum?id=XfuNPjDjoG}
+}
+```
+
+Please contact [Jiahua Rao](raojh7@mail.sysu.edu.cn) for any questions or suggestions.
