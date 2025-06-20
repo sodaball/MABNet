@@ -39,7 +39,7 @@ python train.py --conf examples/MABNet-SPICE.yml --dataset-root ../dataset/spice
 
 The `conf` parameter specifies the dataset-specific configuration file provided in the examples directory. The `dataset-root` parameter indicates the location where datasets are stored. If the dataset doesn't exist on first run, it will be automatically downloaded. The `log-dir` parameter specifies where results will be saved.
 
-For small molecule datasets, MD17 and rMD17 are also supported. You need to modify the `conf` parameter to MD17 or rMD17, and change the `dataset-arg` parameter to the specific molecular subset. The QM9 dataset is also supported - simply change the `conf` parameter to QM9 and modify the `dataset-arg` parameter to the quantum chemical property you want to predict.
+For small molecule datasets, MD17 and rMD17 are also supported. You need to modify the `conf` parameter to MD17 or rMD17, and change the `dataset-arg` parameter to the specific molecular subset.
 
 ## Inference
 
