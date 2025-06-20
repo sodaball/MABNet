@@ -199,22 +199,6 @@ class DataModule(LightningDataModule):
         idx_test = split_dict['test']
         
         return idx_train, idx_val, idx_test
-    
-    def _prepare_QM9_dataset(self):
-        
-        self.dataset = QM9(root=self.hparams["dataset_root"], dataset_arg=self.hparams["dataset_arg"])
-        train_size = self.hparams["train_size"]
-        val_size = self.hparams["val_size"]
-        
-        idx_train, idx_val, idx_test = make_splits(
-            len(self.dataset),
-            train_size,
-            val_size,
-            None,
-            self.hparams["seed"],
-            join(self.hparams["log_dir"], "splits.npz"),
-            self.hparams["splits"],
-        )
 
         return idx_train, idx_val, idx_test
     
