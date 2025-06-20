@@ -1,5 +1,7 @@
 # Quadruple Attention in Many-body Systems for Accurate Molecular Property Predictions
 
+[![ICML](https://img.shields.io/badge/ICML-2025-blue.svg)](https://icml.cc/Conferences/2025)
+
 ## Overview
 
 <img src="fig1-model.png" width=80%> 
